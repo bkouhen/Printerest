@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+.navbar {
+	position:absolute;
+}
+
+.behind_nav {
+	background-color: #222;
+}
+/* Navbar */
+
+.nav_extension {
+	height:25px;
+	width:100%;
+	background-color: #222;
+}
+
+.navbar-bigger {
+	height:100px;
+}
+
+.navbar-bigger-pad {
+	padding-top: 25px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #9d9d9d;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #be6b6b;
+  background-color: transparent;
+  
+  }
+
+/* Body */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color:#222; 
+  /* #f8f5f5 */
+
+}
+
+/* Brand logo Printerest */
+.brand2{
+	padding-top: 9px;
+}
+
+/* Image fill function */
+.image-fill
+{
+	width: 100%;
+}
+
+/* Wrapper takes the whole screen */
+#header{
+	padding: 0;
+}
+#wrapper
+{
+	padding:0;
+	background-color: #f8f5f5;
+}
+
+/* The content section */
+#content
+{
+	padding-top: 60px;
+	background-color:#f8f5f5;
+}
+
+.content_cont .col-md-4{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.content_cont .col-md-12{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#content img{
+	margin-bottom: 40px;
+}
+
+#content .tarifs{
+	margin-top:50px;
+}
+
+#content .tarifs img{
+	margin-bottom: 90px;
+}
+
+/* The Header Section */
+#header .col-md-12{
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#header button{
+	padding: 0;
+	border: 0;
+	background-color: #f8f5f5;
+}
+
+#header button:hover {
+	padding: 0;
+	border: 0;
+	background-color: red;
+}
+
+#header a{
+	text-decoration: none;
+	color:black;
+}
+
+#header a:hover{
+	color:#be6b6b;
+}
+
+#bg_header{
+	margin-bottom: 20px;
+	background-color:#f8f5f5;
+}
+
+/* The divider */
+.featurette-divider {
+  margin:auto; /* Space out the Bootstrap <hr> more */
+  border:1px outset #8f8f8f;
+  }
+  
+.divide{
+	width:700px;
+}
+  
+/* The Signup Section */
+#signup{
+	text-align: center;
+	padding-top: 50px;
+}
+
+#signup .col-md-6 h2{
+	margin-bottom: 40px;
+}
+
+#signup .col-md-4{
+	margin-top : 40px;
+	margin-bottom: 50px;
+}
+
+/* The Contact Section */
+#contact{
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+#contact ul{
+	list-style: none;
+}
+
+#contact a{
+	text-decoration: none;
+	color:#8e8c8c;
+}
+
+#contact a:hover{
+	color:#238eeb;
+}
+
+#contact h4{
+	margin-bottom: 30px;
+}
+
+/* The Footer Section */
+footer{
+	margin-top: 50px;
+}
+
+footer a:hover{
+	text-decoration: none;
+}
