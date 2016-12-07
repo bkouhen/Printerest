@@ -1,62 +1,42 @@
 var main = function() {
 	
-	$('img').animate({ top: "+=100px"}, 1000 );
-	
+	//Navbar - Animation lorsqu'on se place sur la barre
 	$('.nav_extension').hide();
-	
 	$('.navbar').mouseenter(function(){
 		$('.nav_extension').slideDown(1000);
 		$('.navbar').animate({top :'+=25px'},'slow');
-		//$('.navbar-header').addClass('navbar-bigger');
-		//$('.navbar-header').addClass('navbar-bigger-pad');
-		//$('.navbar-collapse').addClass('navbar-bigger-pad');
+
 	});
 	
 	$('.navbar').mouseleave(function(){
 		$('.nav_extension').slideUp(1000);
 		$('.navbar').animate({top:'-=25px'},'slow');
-		//$('.navbar-header').removeClass('navbar-bigger');
-		//$('.navbar-header').removeClass('navbar-bigger-pad');
-		//$('.navbar-collapse').removeClass('navbar-bigger-pad');
-	});
-/*
-	$('.navbar').css('opacity','0.9');
-
-	$('.navbar').mouseenter(function(){
-		$('.navbar').hide();
-		$('.navbar-header').addClass('navbar-bigger');
-		$('.navbar-header').addClass('navbar-bigger-pad');
-		$('.navbar-collapse').addClass('navbar-bigger-pad');
-		$('.navbar').slideDown(1000);
-
-
 	});
 	
-	$('.navbar').mouseleave(function(){
-		
-		$('.navbar-header').removeClass('navbar-bigger');
-		$('.navbar-header').removeClass('navbar-bigger-pad');
-		$('.navbar-collapse').removeClass('navbar-bigger-pad');
-		
-
-	});
-*/
-
-
-
-
-		
-/*
-//	$('.navbar').css('background-color','yellow');
-	$('.navbar-header').css('height','100px');
-
-//	$('.navbar-header').css('background-color','red');
-//	$('.navbar-collapse').css('background-color','green');
 	
-	$('.navbar-header').css('padding-top','25px');
-	$('.navbar-collapse').css('padding-top','25px');
-*/
+	//Changement du logo lorsqu'on se place au dessus
+	$('.mini_logo').hover(
+	
+		function(){
+			$(this).attr('src', 'images/images_site/Logo_mini_on.png');
+		},
+		function(){
+			$(this).attr('src', 'images/images_site/Logo_mini_off.png');
+		});
+		
 
+	
+	$('.expand_btn_success').hover(
+	
+	function(){
+		$(this).animate({width:'200px', paddingBottom:'10px', paddingTop:'10px'},600);
+	},
+	function(){
+		$(this).animate({width:'170px', paddingBottom:'5px', paddingTop:'5px'},600);
+	}
+	
+	);
+	
 	
 /*
 	$('body').hide();
